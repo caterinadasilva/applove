@@ -14,3 +14,15 @@
 .text-uppercase {
   text-transform: uppercase;
 }
+
+.img-responsive {
+	max-width: 100%;
+	height: auto;
+}
+
+.container {
+	display: block;
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}

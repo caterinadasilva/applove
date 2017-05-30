@@ -9,14 +9,12 @@
   padding: 0;
   margin: 0;
 }
-
 *:before,
 *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-
 body {
   font-family: 'Raleway', Helvetica, Arial, sans-serif;
   margin: 0 auto;
@@ -24,38 +22,49 @@ body {
   line-height: 1.71429;
   background-color: #fff;
 }
-
 img {
   vertical-align: middle;
 }
-
 a {
   color: #373B47;
   text-decoration: none;
 }
-
 a:hover {
   color: #E95853;
 }
-
 header {
   position: fixed;
   background-color: #fff;
   width: 100%;
   top: 0;
 }
-
+h1 {
+  font-size: 56px;
+}
+h2 {
+  font-size: 49px;
+}
+h3 {
+  font-size: 42px;
+}
+h4 {
+  font-size: 35px;
+}
+h5 {
+  font-size: 21px;
+}
+h6 {
+  font-size: 14px;
+}
 .link {
   font-weight: 700;
   padding: 21px;
   display: inline-block;
 }
-
 .menu {
   padding: 14px 70px;
   overflow: auto;
 }
-
 .logo {
   float: right;
 }
@@ -72,16 +81,13 @@ header {
   text-align: center;
   margin-top: 80px;
 }
-
 #home .container {
   color: #fff;
   padding: 70px;
 }
-
 .text-home {
   font-size: 53px;
 }
-
 .btn-home {
   background: #2ecc71;
   color: #fff;
@@ -99,18 +105,43 @@ header {
   color: #fff;
   padding: 70px 7px;
 }
-#services h4 {
-  max-width: 600px;
+#services h4, #work h4 {
+  max-width: 840px;
+  width: 90%;
   margin: 0 auto;
+  font-size: 95%;
 }
 .box-services {
   display: inline-block;
   width: 30%;
   margin-top: 63px;
 }
+.box-services h5 {
+  padding-top: 21px;
+}
 .text-services {
   font-size: 35px;
   letter-spacing: 2px;
+  margin-bottom: 42px;
+}
+#work {
+  text-align: center;
+  padding: 70px 7px;
+  overflow: hidden;
+}
+#work > div > img {
+  margin: 63px 0;
+}
+.work-services {
+    width: 29%;
+    float: left;
+    margin: 35px 2%;
+}
+.work-services img {
+  width: 100%;
+}
+.work-services h5 {
+  padding-top: 35px;
 }
 footer {
   text-align: center;
