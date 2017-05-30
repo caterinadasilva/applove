@@ -28,9 +28,11 @@ img {
 a {
   color: #373B47;
   text-decoration: none;
+  transition: .5s all ease;
 }
 a:hover {
   color: #E95853;
+  transition: .5s all ease;
 }
 header {
   position: fixed;
@@ -98,6 +100,12 @@ h6 {
   margin-top: 63px;
   display: inline-block;
   font-size: 14px;
+  transition: .5s all ease;
+}
+.btn-home:hover, .btn-home:focus, .btn-home:active {
+  background-color: #0AC25A;
+  color: #fff;
+  transition: .5s all ease;
 }
 #services {
   background-color: #f17c72;
@@ -122,7 +130,7 @@ h6 {
 .text-services {
   font-size: 35px;
   letter-spacing: 2px;
-  margin-bottom: 42px;
+  margin: 42px 0;
 }
 #work {
   text-align: center;
